@@ -26,13 +26,13 @@ question_3 = Question.create(
   content: 'Are you targeting an affluent demographic?'
 )
 
-resolution_web = Resolution.create(
+resolution_native = Resolution.create(
   site: site,
   content: 'Based on your answers, we would recommend building a native
   application. While it will be platform-specific, it enables access to fancy
   device features.'
 )
-resolution_native = Resolution.create(
+resolution_web = Resolution.create(
   site: site,
   content: 'Based on your answers, we would recommend building a responsive web
   application. It is available to all platforms current and future that have a
