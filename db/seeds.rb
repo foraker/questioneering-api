@@ -9,7 +9,11 @@
 site = Site.create(
   title: 'Should I build a native app or a responsive web app?',
   content: 'When you are considering building a new application, it is important
-    to consider whether it should be <strong>native or responsive</strong>.'
+    to consider whether it should be <strong>native or responsive</strong>.',
+  keywords: 'web development, native app, responsive app, web vs native, ' +
+    'ios development, android development',
+  description: 'Get some advice on what platform makes sense for your product: ' +
+    'Should you build a native app or a responsive web app?'
 )
 question_1 = Question.create(
   site: site,
