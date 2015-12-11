@@ -42,9 +42,9 @@ resolution_web = Resolution.create(
   application. It is available to all platforms current and future that have a
   web browser.'
 )
-Answer.create(content: 'Y<strong>e</strong>s', question: question_1, resolution: resolution_web)
+Answer.create(content: 'Yes', question: question_1, resolution: resolution_web)
 Answer.create(content: 'No',  question: question_1, resolution: resolution_native)
-Answer.create(content: 'No',  question: question_2, resolution: resolution_web)
 Answer.create(content: 'Yes', question: question_2, resolution: resolution_native)
-Answer.create(content: 'No',  question: question_3, resolution: resolution_web)
+Answer.create(content: 'No',  question: question_2, resolution: resolution_web)
 Answer.create(content: 'Yes', question: question_3, resolution: resolution_native)
+Answer.create(content: 'No',  question: question_3, resolution: resolution_web)
