@@ -1,0 +1,106 @@
+---
+sites:
+  -
+    title: Should I build a native app or a responsive web app?
+    content: >
+      When you are considering building a new application, it is important
+      to consider whether it should be native or responsive.
+    keywords: >
+      web development, native app, responsive app, web vs native,
+      ios development, android development
+    description: >
+      Get some advice on what platform makes sense for your product:
+      Should you build a native app or a responsive web app?
+    resolutions:
+      -
+        key: web
+        content: >
+          <p>
+            Based on your answers, we would recommend building a responsive web
+            application. It is available to all platforms current and future that
+            have a web browser.
+          </p>
+          <p>
+            <a href="https://www.foraker.com">Foraker Labs</a> would love to
+            help build your product. We're an experienced web development firm
+            based out of Boulder, Colorado.
+          </p>
+      -
+        key: mobile
+        content: >
+          <p>
+            Based on your answers, we would recommend building a native mobile
+            app. While it will be platform-specific, it enables access to features
+            that require hardware support like GPS, camera, etc.
+          </p>
+          <p>
+            <a href="https://www.foraker.com">Foraker Labs</a> would love to
+            help build your product. We're an experienced web and mobile
+            development firm based out of Boulder, Colorado.
+          </p>
+    questions:
+      -
+        content: >
+          Do you want your app to be accessible on all platforms
+          (iOS, Android, Windows, etc)?
+        answers:
+          -
+            content: "Yes"
+            resolution: web
+          -
+            content: "No"
+            resolution: mobile
+      -
+        content: >
+          Do you need to be able to send “push notifications” or other alerts
+          to your users?
+        answers:
+          -
+            content: "Yes"
+            resolution: mobile
+          -
+            content: "No"
+            resolution: web
+      -
+        content: >
+          Do you need to do graphics intensive work (e.g. create photo filters)?
+        answers:
+          -
+            content: "Yes"
+            resolution: mobile
+          -
+            content: "No"
+            resolution: web
+      -
+        content: >
+          Does your application need to make extensive use of the user’s
+          location data?
+        answers:
+          -
+            content: "Yes"
+            resolution: mobile
+          -
+            content: "No"
+            resolution: web
+      -
+        content: >
+          Does your application need access to device specific features such the
+          address book or user health data?
+        answers:
+          -
+            content: "Yes"
+            resolution: mobile
+          -
+            content: "No"
+            resolution: web
+      -
+        content: >
+          Does your application need to communicate with external devices via
+          Bluetooth?
+        answers:
+          -
+            content: "Yes"
+            resolution: mobile
+          -
+            content: "No"
+            resolution: web
