@@ -14,6 +14,7 @@ sites:
     resolutions:
       -
         key: web
+        title: Build a responsive web app!
         content: >
           <p>
             Based on your answers, we would recommend building a responsive web
@@ -27,6 +28,7 @@ sites:
           </p>
       -
         key: mobile
+        title: Build a native mobile app!
         content: >
           <p>
             Based on your answers, we would recommend building a native mobile

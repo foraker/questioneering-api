@@ -52,6 +52,7 @@ class SeedData
       ::Resolution.create!(
         site:    site,
         key:     data['key'],
+        title:   data['title'],
         content: data['content']
       )
     end

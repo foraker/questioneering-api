@@ -1,5 +1,5 @@
 class ResolutionSerializer < ActiveModel::Serializer
-  attributes :id, :content
+  attributes :id, :title, :content
 
   belongs_to :site
 end
