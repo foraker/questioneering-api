@@ -139,7 +139,7 @@ sites:
       -
         content: >
           Do you already have an extensive investment in your web site that you need to
-leverage?
+          leverage?
         answers:
           -
             content: "Yes"
