@@ -43,7 +43,7 @@ sites:
     questions:
       -
         content: >
-          Do you want your app to be accessible on all platforms
+          Is it a requirement that your app is available on all platforms
           (iOS, Android, Windows, etc)?
         answers:
           -
@@ -55,7 +55,7 @@ sites:
       -
         content: >
           Do you need to be able to send “push notifications” or other alerts
-          to your users?
+          to your users when they're not using the app?
         answers:
           -
             content: "Yes"
@@ -66,6 +66,16 @@ sites:
       -
         content: >
           Do you need to do graphics intensive work (e.g. create photo filters)?
+        answers:
+          -
+            content: "Yes"
+            resolution: mobile
+          -
+            content: "No"
+            resolution: web
+      -
+        content: >
+          Does your app want to use complex gestures with many fingers?
         answers:
           -
             content: "Yes"
@@ -106,3 +116,34 @@ sites:
           -
             content: "No"
             resolution: web
+      -
+        content: >
+          Does your application need to function extensively offline?
+        answers:
+          -
+            content: "Yes"
+            resolution: mobile
+          -
+            content: "No"
+            resolution: web
+      -
+        content: >
+          Do you need to be able to roll out new features to users daily?
+        answers:
+          -
+            content: "Yes"
+            resolution: web
+          -
+            content: "No"
+            resolution: mobile
+      -
+        content: >
+          Do you already have an extensive investment in your web site that you need to
+leverage?
+        answers:
+          -
+            content: "Yes"
+            resolution: web
+          -
+            content: "No"
+            resolution: mobile
